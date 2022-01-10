@@ -5,6 +5,10 @@
 @version      1.0.0
 @license      MIT
 @preprocessor stylus
+
+@homepageURL https://github.com/aon2003/Dark_Theme_for_tues.bg-elsys-bg.org
+@supportURL https://github.com/aon2003/Dark_Theme_for_tues.bg-elsys-bg.org/issues
+@updateURL https://github.com/aon2003/Dark_Theme_for_tues.bg-elsys-bg.org/blob/main/style.css
 ==/UserStyle== */
 
 @-moz-document url-prefix("https://elsys-bg.org/"), domain("tues.bg") {
