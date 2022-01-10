@@ -1,0 +1,129 @@
+@-moz-document url-prefix("https://elsys-bg.org/"), domain("tues.bg") {
+/* Root */
+
+:root {
+	--black: black;
+	--white: white;
+	--gray: #6f6f6f;
+	--light-gray: #b0b0b0;
+	--dark-gray: #3e3e3e;
+	--darker-gray: #282828;
+}
+
+}
+
+@-moz-document url-prefix("https://elsys-bg.org/"), domain("tues.bg") {
+/* Backgrounds */
+
+.news-list, .accordionItem>header:before, .read-more:before, .pagination a.prev, .pagination a.next, #navigation>ul>li>.megamenu:before, #search:before, .main-text>.show-sub-text, .content-slider .slick-arrow {
+	background-color: var(--gray);
+}
+
+.service-box>ul>li .text, .service-box>ul>li .text figure, .service-box>ul>li:before {
+	background: var(--light-gray);
+}
+
+.show-sub-text {
+	background: var(--light-gray) !important;
+}
+
+body, #page, .service-box>ul>li:after {
+	background-color: var(--darker-gray);
+}
+
+#header, #footer, .service-box>ul, .gradient-text {
+    background: var(--darg-gray);
+    background: -moz-linear-gradient(left, var(--dark-gray) 0%, var(--gray) 100%);
+    background: -webkit-linear-gradient(left, var(--dark-gray) 0%, var(--gray) 100%);
+    background: linear-gradient(to right, var(--dark-gray) 0%, var(--gray) 100%);
+}
+
+
+}
+
+@-moz-document url-prefix("https://elsys-bg.org/"), domain("tues.bg") {
+/* Colors */
+
+.wrapper h2 p, figcaption h3, figcaption span, figcaption p, .pagination a {
+	color: var(--white);
+}
+
+.comments-box li div.text header h3 {
+	color: var(--white) !important;
+}
+
+.pagination span.current {
+	color: var(--gray);
+}
+
+body, p, a, h1, h2, h3, .section-title h3, .slash-info>li:after, .accordionItem>header h5, .comments-box>li .text header h3, .read-more, .files-list ul>li a {
+	color: var(--light-gray);
+}
+
+.news-list>li h3 a:hover, #navigation>ul>li>a:hover, .gradient-text .text p {
+	color: var(--darker-gray);
+}
+
+
+}
+
+@-moz-document url-prefix("https://elsys-bg.org/"), domain("tues.bg") {
+/* Borders */
+
+.comments-box>li>.figure-box figure {
+	border-color: var(--gray);
+}
+
+figure {
+	border-color: var(--gray) !important;
+}
+
+hr, .accordionItem {
+    border-top: 3px solid var(--light-gray);
+    border-bottom: 3px solid var(--light-gray);
+}
+
+}
+
+@-moz-document url-prefix("https://elsys-bg.org/"), domain("tues.bg") {
+/* Other */
+}
+
+@-moz-document url-prefix("https://elsys-bg.org/"), domain("tues.bg") {
+/* Scrollbars */
+
+/**********************/
+/* Scrollbar Chromium */
+/**********************/
+
+::-webkit-scrollbar {
+    width: 11px;
+}
+
+::-webkit-scrollbar-button,
+::-webkit-scrollbar-track,
+::-webkit-scrollbar-corner {
+    background-color: var(--gray);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--light-gray);
+    border-radius: .3rem;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--dark-gray);
+}
+
+::-webkit-scrollbar-thumb:active {
+    background: var(--darker-gray);
+}
+
+/*********************/
+/* Scrollbar Firefox */
+/*********************/
+
+body {
+	scrollbar-color: var(--light-gray) var(--gray);
+}
+}
